@@ -24,7 +24,7 @@ public class AdministradorProductos {
     public static void main(String[] args) { //Main del proyecto
         Producto p1 = new Producto(101, "Café", 1500); // Declaración e inicialización de p1
         Producto p2 = new Producto(102, "Azucar", 2500); // Declaración e inicialización de p2
-        Comida p3 = new Comida(103, "Pastel", 2000, LocalDate.now().plusDays(2)); // Declaración e inicialización de p3
+        Comida p3 = new Comida(103, "Pastel", 2000, LocalDate.now()); // Declaración e inicialización de p3
         Producto p4 = new Bebida(104, "Té", 1800); //// Declaración e inicialización de p4
 
         //PRINT
